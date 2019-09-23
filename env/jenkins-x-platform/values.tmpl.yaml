@@ -139,7 +139,7 @@ gcactivities:
     enabled: true
     schedule: "0/30 * * * *"
   image:
-    repository: gcr.io/jenkinsxio/builder-jx
+    repository: 9.46.76.93:5000/jenkinsxio/builder-jx
     tag: 0.1.658
 
 gcpods:
